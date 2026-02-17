@@ -2,6 +2,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
 
+// Merkle tree construction for a block comprising two transactions
+
 class Merkle
 {
     public static void main(String[] args)
@@ -20,7 +22,7 @@ class Merkle
         System.out.println("HASH 2"+hash2);
         
         String hashconhash = hash(hash1.concat(hash2));
-        System.out.println("hashconhash"+hashconhash);
+        System.out.println("hashconhash (root hash)"+hashconhash);
         sc.close();
     }
     
@@ -61,7 +63,8 @@ TXN ID 2
 0x7441127d4b8ef92425c4089ba6496cd86fdfe317b87b352c775e7cfdea51618f
 TXN ID 2 0x7441127d4b8ef92425c4089ba6496cd86fdfe317b87b352c775e7cfdea51618f
 HASH 2 bb366ae2b3a7b79a32b997f967d6c934142d7bb8d219392feea1aa42287f4ffc
-hashconhash 54cb49d7f07209b9728a0433c728713cdc729751fd3ad90e638f1aedf19c6979
+hashconhash (root hash) 54cb49d7f07209b9728a0433c728713cdc729751fd3ad90e638f1aedf19c6979
 
 === Code Execution Successful ===
+
 */

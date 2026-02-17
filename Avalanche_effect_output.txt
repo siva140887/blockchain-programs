@@ -1,0 +1,7 @@
+Sample I/O:  Avalanche Effect
+*************
+Transaction input: 0x07cc1ad77450ed292f9013f986a7def3523305bf79e68cc4cc7f65aef065abd9
+Hash output: 2fa54b9265d8a289132b0b666039690040f06a1389ec67ca1d922edd847eb8a7
+Transaction input: 0x06cc1ad77450ed292f9013f986a7def3523305bf79e68cc4cc7f65aef065abd9 (Change in 1 bit viz., in the very first transaction input byte '06' (0110) in place of '07' (0111))
+Hash output: fc3889fe5003ced9cb92c23aac69af421c799dc16e518d669786c5367063d88a  (A completely different hash output)
+

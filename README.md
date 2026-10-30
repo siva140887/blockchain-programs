@@ -2,4 +2,4 @@
 The repository contains 
 - Java code for Merkle tree construction.
 - JSON Application Binary Interface.
-- Solidity code for immutable and upgradeable Ethereum smart contracts.
+- Solidity code for Immutable and Upgradeable Ethereum smart contracts.
